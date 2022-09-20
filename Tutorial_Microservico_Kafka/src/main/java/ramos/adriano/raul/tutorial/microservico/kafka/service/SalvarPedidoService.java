@@ -32,6 +32,8 @@ public class SalvarPedidoService {
         log.info("Evento recebido  = {}", pedido);
 
         //gravar no BD
+        gravarPedido(pedido);
         //responder para a fila que o pedido foi salvo
+        
     }
 }
